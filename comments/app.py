@@ -3,6 +3,8 @@
 comments oauth demo
 ~~~~~~~~~~~~~~~~~~~
 
+After login, shows a list of the users most recent comments.
+
 :copyright: (c) 2011 DISQUS.
 :license: Apache License 2.0, see LICENSE for more details.
 """
