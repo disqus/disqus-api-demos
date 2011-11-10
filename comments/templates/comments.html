@@ -1,0 +1,8 @@
+<h1>Recent comments posted by {{ user.username }}</h1>
+
+{% for comment in comment_list %}
+    <h2><a href="{{ comment.thread.link }}">{{ comment.thread.title }}</a> <small>[<a href="{{ comment.link }}">comment</a>]</small></h2>
+    <p>{{ comment.message|safe }}</p>
+{% else %}
+    <p>No comments :(</p>
+{% endfor %}
